@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="What Is PTE ?" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="1.) The Pearson Test of English Academic or PTE - A has quickly grown to become the preferred English test for students and migrant visa applicants alike around the world, especially, Australia and New Zealand. In addition to its unbiased approach to testing, the test has many unique advantages."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="2.) PTE Academic is an English test trusted by universities, colleges, and governments around the world. It is the fastest computer-based English test and allows you to demonstrate language skills."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="3.) During the three-hour test session, there will be three main parts to the test: speaking and writing (together), listening and reading. There are twenty different question formats, ranging from multiple choice questions through to essay writing and interpreting information."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="4.) PTE Academic assesses real-life, academic English, so you will hear excerpts from lectures and view graphs and charts. You will hear a range of accents in the test, from British and American to non-native speakers, so you will be exposed to the type of accents you will encounter in everyday life."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="PTE EXAM FORMAT" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="16dp"
+                android:weightSum="9">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Writing "
+                    android:background="@drawable/listeningbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="3"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Reading"
+                    android:background="@drawable/speakingbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="3"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Listening"
+                    android:background="@drawable/writingbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ptespeaking"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ptereading"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ptelistening"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="IMPORTANT INFORMATION" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• World’s leading computer based test of English for studying abroad and immigration." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Recognized by thousands of Universities &amp; Colleges worldwide." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• There are 4 modules: Reading, Listening, Writing and speaking." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Results are available within 5 Business days." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Duration of test is 3 hours." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• It is a computer based exam and a headset is given to respond to questions." />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

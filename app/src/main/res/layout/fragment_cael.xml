@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="Canadian Academic English Language (CAEL)" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="1.) This test designed to measure the English language proficiency of students planning to study in Canadian post-secondary institutions."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="2.) CAEL is one of the best tools for identifying students with the right English skills for academic success. It provides an authentic representation of language use in a Canadian academic context. Test takers read articles, listen to a lecture, answer questions, and write a short essay, as they would be expected to do in a first-year Canadian university or college classroom."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="3.) CAEL is now available as a computer-delivered test, known as CAEL CE (Computer Edition). CAEL CE has been improved to deliver all four components (reading, listening, writing, and speaking) by computer in a single test sitting."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="4.) The total allotted test time is approximately 145 minutes (2 hours and 25 minutes). Some test centres offer the CAEL Assessment over 2 days, with the Written Assessment and the OLT held on separate days."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="5.) The CAEL Assessment has two parts: Part 1, the Written Assessment and Part 2, the Oral Language Test (OLT)."
+                android:textColor="@android:color/black" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/cael"
+                android:layout_margin="16dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Written Assessment" />
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Reading Section 1"
+                        android:background="@drawable/textviewbg1"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="25 minutes"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Listening Section"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="20 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Reading Section 2"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="30 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Writing Section"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="45 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:text="READING" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="The time allotted for the Reading section is 55 minutes. Test takers are given two readings that are on the same topic as the Listening and Writing components. The readings are taken from the following sources:"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• First-year university textbooks"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Magazine and academic journal articles"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Brochures or information leaflets"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Newspaper articles"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Graphs and charts"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Government documents"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Reading Tasks Include:" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Identifying main ideas"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Extracting specific information"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Understanding vocabulary in context"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Classifying information"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Following a logical or chronological sequence of events"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:text="WRITING" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="The time allotted for the Writing section 45 minutes. Test takers will use the information from the Reading and Listening components to write a short essay. It is encouraged that test takers plan their essays prior to writing."
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The essay is always the final task of the test"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The essay topic is always provided at the beginning of the test"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The essays are typically one to two pages in length"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:text="The essay topic asks the test taker to:" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Agree or disagree with a claim"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Argue for or against a position"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Discuss advantages and disadvantages of a course of action"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Classifying information"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Following a logical or chronological sequence of events"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Oral Language Test (OLT)" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="The time allotted for the Oral Language Test (OLT) is 25 minutes. The OLT is carried out on a computer equipped with a headset and microphone, however test takers will not be required to use the computer mouse or keyboard. The OLT may be taken before or after the Written Assessment. It consists of five tasks which sample typified and recurring speech acts within college and university settings:"
+                android:textColor="@android:color/black" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Task1"
+                        android:background="@drawable/textviewbg1"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:padding="2dp"
+                        android:text="Make a short oral presentation."
+                        android:textColor="@android:color/black"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Task2"
+                        android:background="@drawable/textviewbg1"
+
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="2dp"
+                        android:text="Relay information obtained from a lecture."
+
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Task3"
+                        android:background="@drawable/textviewbg1"
+
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Relay information obtained from an academic docs."
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Task4"
+                        android:background="@drawable/textviewbg1"
+
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+
+                        android:text="Relay information from an academic text."
+
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Task5"
+                        android:background="@drawable/textviewbg1"
+
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+
+                        android:text="Explain a choice for participation in a group project."
+
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:text="Scoring" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="CAEL Assessment Scores are reported for Listening, Reading, Writing, and Speaking test components. The scores range from band level 10 to band level 90."
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="CAEL Band Descriptors" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Each band score corresponds to a descriptive statement summarizing the level of English language proficiency of a test taker."
+                android:textColor="@android:color/black" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="80-90"
+                        android:background="@drawable/textviewbg1"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Expert"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="70"
+                        android:background="@drawable/textviewbg1"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Adept"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="60"
+                        android:background="@drawable/textviewbg1"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Advanced"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="50"
+                        android:background="@drawable/textviewbg1"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="High Intermediate"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="40"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Intermediate"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="30"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="High Beginner"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="10-20"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Low Beginner"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Interpretation of Band Scores" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TableRow
+                android:background="@drawable/textviewbg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="70-90"
+                    android:background="@drawable/textviewbg1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewbg1"
+                    android:text="Meets university "
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+            <TableRow
+                android:background="@drawable/textviewbg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="50-60"
+                    android:background="@drawable/textviewbg1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewbg1"
+                    android:text="May meet"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+            <TableRow
+                android:background="@drawable/textviewbg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10-40"
+                    android:background="@drawable/textviewbg1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/textviewbg1"
+                    android:text="Too low "
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+        </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="RESULTS" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="1.) Results of tests taken at Canadian test centres are available within 10 to 15 business days after the scheduled test date. However, the results of tests taken at international test locations are available within 20 business days after the scheduled test date."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="2.) Test takers’ test scores can be sent to five institutions, which is included in the registration fee. Institution details are provided by the test takers when registering online, or up to 4 days before the chosen test date. The official score reports will only be mailed to academic and professional institutions"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

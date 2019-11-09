@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/studyy"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_margin="8dp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:src="@drawable/saf"
+                />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:text="PROGRAMS " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Accounting &amp; Business" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Agriculture &amp; Horticulture" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Animation &amp; Graphics" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Business" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Education &amp; Social" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Engineering &amp; Environmental" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Events &amp; Sports" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Fashion &amp; Design" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Hospitality &amp; Tourism" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="8dp"
+                        android:textStyle="bold"
+                        android:text="• Health Science &amp; Medical " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="8dp"
+                        android:textStyle="bold"
+                        android:text="• Law" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="8dp"
+                        android:textStyle="bold"
+                        android:text="• Media &amp; Advertising" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/counselling"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/addpr"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/visa"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pre"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/post"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

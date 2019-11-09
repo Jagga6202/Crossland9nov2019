@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "53799759656",
+    "firebase_url": "https://dulcet-thinker-256310.firebaseio.com",
+    "project_id": "dulcet-thinker-256310",
+    "storage_bucket": "dulcet-thinker-256310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53799759656:android:223c0ece221f0fcb986a1d",
+        "android_client_info": {
+          "package_name": "com.vjes.crossland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53799759656-1k1unq4tk40n53e321hbodtq0qo6q3b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjes.crossland",
+            "certificate_hash": "6ab2561d2553d2d9ec37304bcfcc15ebbe523b7f"
+          }
+        },
+        {
+          "client_id": "53799759656-gplfq9vbab6lv1fi9cd4kl7avfjfoept.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxzfy2q_iQRUrNBlS7941sxe2d59XUwHc"
+        },
+        {
+          "current_key": "AIzaSyCxzfy2q_iQRUrNBlS7941sxe2d59XUwHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53799759656-gplfq9vbab6lv1fi9cd4kl7avfjfoept.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53799759656:android:f76d21fcae5d5796986a1d",
+        "android_client_info": {
+          "package_name": "com.vjes.fcmcross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53799759656-28ip6ls78j6o3u40qcpptucvdvd8jdf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjes.fcmcross",
+            "certificate_hash": "6ab2561d2553d2d9ec37304bcfcc15ebbe523b7f"
+          }
+        },
+        {
+          "client_id": "53799759656-gplfq9vbab6lv1fi9cd4kl7avfjfoept.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxzfy2q_iQRUrNBlS7941sxe2d59XUwHc"
+        },
+        {
+          "current_key": "AIzaSyCxzfy2q_iQRUrNBlS7941sxe2d59XUwHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53799759656-gplfq9vbab6lv1fi9cd4kl7avfjfoept.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

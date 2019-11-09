@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="SKILL MIGRATION" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="#174b95"
+                android:layout_gravity="center"
+                android:text="We Provide Consulting &amp; Documentation For Skill Migration to Australia and Canada "/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                   android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/skillmigrationjob"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:text="Following Programs Are in Demand " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Doctors / Nurse / Dentist / Health Care / Pharmacist / R&amp;D" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Medical Technicians / Architects / Arts / HR / Insurance / Banking" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Engineers ( Civil / Mechanical / Electrical / Computer Science ) " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Hospitality ( Chef's / Restaurant Managers / etc )" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Construction Workers ( Plumber / Air Conditioning / Bricks &amp; Land )" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="12sp"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:text="• Motor Mechanics / Electrician / Plumber / Carpenter etc " />
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

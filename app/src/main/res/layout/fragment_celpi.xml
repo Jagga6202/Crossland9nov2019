@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="What is CELPIP ?" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="The Canadian English Language Proficiency Index Program (CELPIP) is an English language proficiency test accepted by a number of governments, professional organizations, universities, colleges, and employers as proof of English language proficiency."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="The test provides a valid and reliable measurement of a test taker’s English abilities in a variety of everyday situations, such as communicating with co-workers and superiors in the workplace, interacting with friends, understanding newscasts, and interpreting and responding to written materials."
+                android:textColor="@android:color/black" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="There are two versions of the CELPIP Test: the CELPIP-General Test and the CELPIP-General LS Test. The CELPIP-General Test assesses functional Listening, Reading, Writing, and Speaking skills, and is accepted by Immigration, Refugees and Citizenship Canada (IRCC) as proof of English language proficiency for permanent residency in Canada. Other organizations that accept the CELPIP-General Test include the Real Estate Council of British Columbia (RECBC) and Immigration Consultants of Canada Regulatory Council (ICCRC). The CELPIP-General LS Test assesses functional Listening and Speaking proficiency, and is accepted by IRCC as proof of English language proficiency for Canadian citizenship."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="fitStart"
+              android:layout_margin="16dp"
+                android:src="@drawable/celpipicon" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="LISTENING - Time allotted: 47-55 minutes" />
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No. of questions"
+                        android:background="@drawable/textviewbg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="Component Sections"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text=" Practice Task"
+                        android:gravity="start"
+
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="8"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part1:Listening to Problem Solving"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="5"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part2:Listening to a Daily Life "
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="6"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part3:Listening for Information"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part4:Listening to a News Item"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="8"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part5:Listening to a Discussion"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="6"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part6:Listening to Viewpoints"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="READING - Time allotted: 55-60 minutes" />
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No. of questions"
+                        android:background="@drawable/textviewbg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="Component Sections"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text=" Practice Task"
+
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="11"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/textviewbg1"
+                        android:text=" Part1:Reading Correspondence"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="8"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part2:Reading to Apply a Diagram"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="9"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part3:Reading for Information"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="10"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Part4:Reading for Viewpoints"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="WRITING - Time allotted: 55-60 minutes" />
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No. of questions"
+                        android:background="@drawable/textviewbg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="Component Sections"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task1:Writing an Email"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+                 <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task2:Survey Questions"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="SPEAKING" />
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No. of questions"
+                        android:background="@drawable/textviewbg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="Component Sections"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Practice Task"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task1:Giving Advice"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task2:Personal Experience"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task3:Describing a Scene"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task4:Making Predictions"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task5:Comparing and Persuading"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task6:Dealing with a Difficult Situation"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task7:Expressing Opinions"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+
+                        android:text=" Task8:Describing an Unusual Situation"
+                        android:gravity="start"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+           android:textSize="20sp"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="SCORING" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CELPIP Level"
+                        android:background="@drawable/textviewbg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="CELPIP Descriptor"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="CLB Level"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="12"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Advanced"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="12"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="11"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Advanced"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="11"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="10"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Highly effective"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="10"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="9"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Effective"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="9"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="8"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Good"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="8"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="7"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Adequate"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="7"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="6"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Developing"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="6"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="5"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Acquiring"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="5"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="4"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Adequate"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="4"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="3"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Some proficiency"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="3"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="M"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Minimal"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="0,1,2"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="RESULTS" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="The results of the CELPIP Test are available online in eight business days. Test takers can also choose to add Express Rating so that scores are available online in just three business days."
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:text="Key Features" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• CELPIP test was designed specifically to assess key language skills required for Canadian permanent residency and citizenship."
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The test uses Canadian English and accepts both British and American English spellings for its components."
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The CELPIP scoring is 1 to 12 for each section."
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The Listening and Reading sections in CELPIP contain a few unscored items that are used for test development and improvement."
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• The speaking section in CELPIP is 15-20 minutes; 8 components, a total of 8 short-answer question"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• CELPIP is conducted in one 3-hour sitting on the computer"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

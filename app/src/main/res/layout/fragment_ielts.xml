@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="What Is IELTS ?" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="The International English Language Testing System (IELTS) is an international standardized test of English Language Proficiency for non-native English language speakers. It is jointly managed by the British Council, IDP: IELTS Australia and Cambridge English Language Assessment, and was established in 1989."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="It is the world’s most popular English language proficiency test for higher education and global migration, with over 3 million tests taken in the last year. IELTS is accepted by most Australian, British, Canadian and New Zealand academic institutions, by over 3,000 academic institutions in the United States, and by various professional organizations across the world."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="IELTS is the most widely accepted English language test that uses a one-on-one speaking test to assess your English communication skills. This means that you are assessed by having a real-life conversation with a real person. This is the most effective and natural way of testing your English conversation skills. No minimum score is required to pass the test. An IELTS result or Test Report Form is issued to all test takers with a score from band 1 (non-user) to band 9 expert user and each institution set a different threshold. There is also a band 0 score for those who did not attempt the test. Institutions are advised not to consider a report older than two years to be valid unless the user proves that they have worked to maintain their level."/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ieltstypes"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ieltsdifference"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="IELTS EXAM FORMAT" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="16dp"
+                android:weightSum="8">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Reading"
+                    android:background="@drawable/readingbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="2"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Listening"
+                    android:background="@drawable/listeningbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="2"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Writing"
+                    android:background="@drawable/writingbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="2"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Speaking"
+                    android:background="@drawable/speakingbg"
+                    android:textColor="@android:color/white"
+                    android:bottomRightRadius="10dp"
+                    android:bottomLeftRadius="10dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reading60bg"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="READING - 60 minutes " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="ACADEMIC : 3 Passages,40 Questions, 3 Sections" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="GENERAL : 4-5 Passages, 40 Questions,3 Sections" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listing30"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="LISTENING-30 minutes+10 minutes(transfer time)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="1.) CD plays- Headphones – monologue &amp; group conversation - 40 Questions- 4 Sections" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="2.) Types of Questions: MCQ, Fill ups, Short Answers etc." />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/writing60"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="WRITING - 60 minutes" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Task: 1-20 minutes" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="1.) AC- Report Writing (Flow chart, pie chart, bar graph, etc)- Min 150 words" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="2.) GT- Letter Writing (formal, informal , semi formal)- Minimum 150 words" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Task 2-40 minutes" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="1.) ESSAY-Minimum 250 Words" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/speaking11"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+
+                    android:textSize="16sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="SPEAKING - 11-14 minutes " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="1.)Introduction (3-5 minutes)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="2.)Cue Card (1 minute to prepare and 2 minutes to speak on the topic)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="3.)Cross Questioning (3-5 Minutes)" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="IMPORTANT INFORMATION" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Valid Passport is required to book the exam." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• The results are valid for 2 years." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• The exam is conducted in more than 93 countries.." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• The Exam fee is Rs.12,650/- ( as on April 2018)" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Students above 16 years of age can appear for the exam." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Results are declared after 13 days of the exam and TRF is received within 7-10 business days after the result is declared" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

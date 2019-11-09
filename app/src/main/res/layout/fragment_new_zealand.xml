@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/newzelflag"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/newzealand"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="STUDY IN NEW ZEALAND" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Over the years, New Zealand has been emerging as an attractive destination for international students. Attractive not just in terms of the quality of education, but also in natural beauty (Yes, Middle Earth is real!) It is made up of two main islands and a number of smaller islands. The two main islands (the North Island, or Te Ika-a-Māui, and the South Island, or Te Waipounamu) are separated by Cook Strait, 22 kilometres (14 mi) wide at its narrowest point. Boats docked in blue-green water. Plate glass skyscrapers rising up in the background. Waterfront along Auckland CBD, a major hub of economic activity New Zealand has a high-income economy with a nominal gross domestic product (GDP) per capita of US$36,254. The currency is the New Zealand dollar, informally known as the Kiwi dollar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="WHY CHOOSE NEW ZEALAND?" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="From certificates to doctoral degrees, all levels of education are available here. Seeing its potential, the New Zealand Government has been investing heavily in the education sector."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="The education system in New Zealand is modeled after the British system. This means it is globally recognized and acknowledged everywhere."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="The country has a centrally managed quality assurance system. All institutions that enroll international students must be registered and must follow stringent rules that maintain high standards of quality and care."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Studying in New Zealand is affordable compared to a lot of other developed countries. Credit for that goes to the competitive tuition fees and a low cost of living."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="New Zealand is considered to be one of the most stable economies in the OECD network. Like its bigger neighbor Australia, New Zealand has a multicultural society."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Foreign students can work up to 20 hours a week during the semester, and full time during vacations i.e. 40 hours. Many New Zealand institutions help students find work through the Student Job Search service. Once you complete your course (successfully, mind you!), you’re entitled to a 12-month work permit. Provided you find a job in your field of study, you could very well be eligible to apply for Permanent Residency."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="NEW ZEALAND’S EDUCATION SYSTEM" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="New Zealand’s education is based on the British system and, hence, is recognized worldwide."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="A bachelor degree can be completed in three years, and a school year lasts two to three semesters. New Zealand’s government directly controls and finances the country’s 20 polytechnics and eight universities. This ensures compliance with state standards. The eight New Zealand universities are: Massey University, University of Waikato, University of Auckland, University of Canterbury Victoria, University of Wellington, University of Otago, Auckland University of Technology Lincoln University. Each of these universities has a core profile. For instance, the University of Otago is known for training specialists in the field of medicine, and the University of Auckland nurtures entrepreneurs and businessmen."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="However, while keeping their core profiles intact, all universities offer an extensive list of courses and training programs."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:text="Your search ends at Crossland Consultants!" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Crossland Consultants is an Exclusive Content associate of PEARSON English offering International Preparation for IELTS, PTE and Spoken English along with providing consultation to students for International Education by assisting in admission, Visa application, Pre and Post Departure services."/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/europebg"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:padding="16dp"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="MIGRATION" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:text="We Provide Consulting &amp; Documentation For Skill Migration to Australia and Canada "/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/canadawork"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="MIGRATION TO CANADA " />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Canada is the most preferred country for Indians when it come to applying for Permanent Residency Visa. Canada's flexible immigration policies,cultural diversity,democratic values, carrer opportunities &amp; Indian communities,lure thousand of people to individuals to apply Permanent Residency Visa in Canada from India."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="To become a permanent resident a foreign national must apply to Immigration, Refugees and Citizenship Canada (IRCC), formerly known as Citizenship and Immigration Canada, under one of several criteria. "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="What Are The Key Benefits Of Getting Permanent Residency in Canada?" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Being a Permanent Resident In Canada, You :" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Can Live,Study or Work anywhere in Canada." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Can apply for Canadian Citizenship." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Can get Heath Care &amp; most of the other social benefits,which a Canadian Citizen Receives." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Are Protected under Canadian law and the Canadian Charter of Rights &amp; Freedom." />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/canadaskillmigration"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="Skill Migration In Canada" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• Express Entry Scheme" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• QUEBEC Skilled Worker" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="12sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="• PNP/ AIPP" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

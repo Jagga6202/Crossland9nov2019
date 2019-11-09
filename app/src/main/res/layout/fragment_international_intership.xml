@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="International Internship" />
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/rec_inter"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </android.support.v7.widget.RecyclerView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:background="#2196f3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="Learn English From Test Developers"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColor="@android:color/white"
+                    android:text="Standardised tests are of great significance while applying to universities abroad. In order to bring your aspirations of studying abroad to fruition, Crossland Consultants presents World Coaching, through which we aim to train, in an expert manner, students preparing to sit for."/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

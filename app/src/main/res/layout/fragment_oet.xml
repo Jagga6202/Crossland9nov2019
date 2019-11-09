@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="What is the OET?" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/oet1"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Which version of OET" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/oet2"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="How to apply for OET ?" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/oet3"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Format and Content"
+                android:textColor="@android:color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_margin="16dp"
+                android:text="OET provides a valid and reliable assessment of all four language skills – Listening, Reading, Writing and Speaking – with an emphasis on communication in medical and health professional settings. OET consists of four sub-tests:"
+                android:textColor="@android:color/black" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Section"
+                        android:background="@drawable/textviewbg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="Time"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg"
+                        android:text="Tests candidates' ability to"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Listening"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="40 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Listen and understand"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Reading"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="60 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="Read and understand"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Writing"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="45 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="write a letter"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/textviewbg1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Speaking"
+                        android:background="@drawable/textviewbg1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="20 minutes"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/textviewbg1"
+                        android:text="communicate"
+                        android:gravity="center"
+                        android:textColor="@android:color/black" />
+
+                </TableRow>
+            </TableLayout>
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TableRow
+
+               android:layout_marginLeft="8dp"
+               android:layout_marginRight="8dp"
+               android:layout_marginTop="8dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="OET Grades / Scores"
+                   android:background="@drawable/textviewbg"
+                   android:gravity="center"
+                   android:textColor="@android:color/white" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg"
+                   android:text="OET Band Descriptors"
+                   android:gravity="center"
+                   android:textColor="@android:color/white" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg"
+                   android:text="IELTS Scores"
+                   android:gravity="center"
+                   android:textColor="@android:color/white" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg"
+                   android:text="PTE Scores"
+                   android:gravity="center"
+                   android:textColor="@android:color/white" />
+           </TableRow>
+           <TableRow
+              android:background="@drawable/textviewbg1"
+               android:layout_marginLeft="8dp"
+               android:layout_marginRight="8dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Grade-A 450-500"
+                   android:background="@drawable/textviewbg1"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="very fluently"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="9.0,8.5,8.0"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="90-79"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+           </TableRow>
+           <TableRow
+               android:background="@drawable/textviewbg1"
+               android:layout_marginLeft="8dp"
+               android:layout_marginRight="8dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Grade-B 350-440"
+                   android:background="@drawable/textviewbg1"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="very fluently"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="7.5,7.0"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="78-65"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+           </TableRow>
+           <TableRow
+               android:background="@drawable/textviewbg1"
+               android:layout_marginLeft="8dp"
+               android:layout_marginRight="8dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Grade-C+ 300-340"
+                   android:background="@drawable/textviewbg1"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="occasional errors"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="6.5"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="64-58"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+           </TableRow>
+           <TableRow
+               android:background="@drawable/textviewbg1"
+               android:layout_marginLeft="8dp"
+               android:layout_marginRight="8dp"
+               android:layout_marginBottom="8dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Grade-C 200-290"
+                   android:background="@drawable/textviewbg1"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="Frequent errors"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="6.0,5.5"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:background="@drawable/textviewbg1"
+                   android:text="57-43"
+                   android:gravity="center"
+                   android:textColor="@android:color/black" />
+           </TableRow>
+       </TableLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

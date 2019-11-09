@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ausflag"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/australia"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="YOUR ULTIMATE GUIDE TO STUDY IN AUSTRALIA" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="Looking to study abroad for higher education?" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="With so many opportunities in international education to choose from, students often get confused whether to study in Aus, Canada, UK, or other preferred popular student destinations. However, none come close to the overall experience that Australia offers. No wonder it’s the 3rd most popular international student destination in the world after USA and UK."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="WHY STUDY IN AUSTRALIA?" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="The cultural diversity, world-class infrastructure, great universities and the most livable cities in the world apart from an exciting outdoor lifestyle make Australia, your best choice for international education. Your dream to study abroad doesn’t have to cost a fortune because Australia offers exciting work opportunities to students, both part-time and post-study to help you assist with living expenses and gain work experience."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="With so much to offer apart from the unparalleled experience of studying abroad, studying in Australia is probably one of the best decisions of your student life. Ever wondered why Australian universities have high global recognition and so popular among international students, especially Indians"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="WHICH ARE THE BEST UNIVERSITIES IN AUSTRALIA FOR INDIAN STUDENTS?" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="Did you know that 6 of the top 100 universities in the world are in Australia?" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Australia universities have always appealed to international students, especially from India as these stand at the forefront of technology, innovation and research. With their emphasis on practice based learning, deep industry ties and diverse courses available for international students, each of the top universities offer international, innovative and industry-relevant education that is designed to meet the needs of tomorrow."/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="This ensures that their graduates are industry ready and most sought after by employers worldwide. Are you curious to know the best universities in Australia to study abroad and how to get admission in your preferred course and city? Do you want to know more about RMIT, Monash University, University of Queensland, University of New South Wales, University of Western Australia, Swinburne University, University of Technology Sydney, Deakin University, La Trobe University and many more."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:text="Your search ends at Crossland Consultants!" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:text="Crossland Consultants is an Exclusive Content associate of PEARSON English offering International Preparation for IELTS, PTE and Spoken English along with providing consultation to students for International Education by assisting in admission, Visa application, Pre and Post Departure services."/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

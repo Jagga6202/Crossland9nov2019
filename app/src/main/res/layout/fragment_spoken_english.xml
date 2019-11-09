@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:text="Spoken English" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="General Spoken English and Business English are Computer Based Classes that are conducted to enhance the level of english for day to day speaking. The main focus of the class is to develop all the four skills-L/R/W/S of the student. The class activities are focused on learning correct grammar and enhancing Vocabulary, Pronunciation and Listening Skills of the learners."
+                android:textColor="@android:color/black" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="fitStart"
+                android:layout_margin="16dp"
+                android:src="@drawable/spokenenglish" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Group Discussion"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Activity Based class"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Reference Book for Activities"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Homework on Software"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="• Take home Book"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"/>
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

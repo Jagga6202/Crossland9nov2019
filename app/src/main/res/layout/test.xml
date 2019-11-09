@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Section"
+                android:background="@drawable/textviewbg"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg"
+                android:text="Time"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg"
+                android:text="Tests candidates' ability to"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/textviewbg1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Listening"
+                android:background="@drawable/textviewbg1"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="40 minutes"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="Listen and understand"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/textviewbg1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reading"
+                android:background="@drawable/textviewbg1"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="60 minutes"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="Read and understand"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/textviewbg1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Writing"
+                android:background="@drawable/textviewbg1"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="45 minutes"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="write a letter"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/textviewbg1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Speaking"
+                android:background="@drawable/textviewbg1"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="20 minutes"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/textviewbg1"
+                android:text="communicate"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:weightSum="10">
+        <TextView
+            android:background="@drawable/textviewbg"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Section"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/textviewbg"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:background="@drawable/textviewbg"
+            android:layout_height="wrap_content"
+            android:text="Tests candidates' ability to"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/textviewbg1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Listening"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="40 minutes"
+
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:text="Listen and understand a range of recordings in healthcare topics from different healthcare settings"
+            android:textColor="@android:color/black"
+
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/textviewbg1"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Reading"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="60 minutes"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+
+            android:text="Read and understand various texts on healthcare topics from different healthcare settings"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/textviewbg1"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Writing"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="45 minutes"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+
+            android:text="write a letter, usually a referral letter using information provided in patient case notes"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/textviewbg1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Speaking"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="20 minutes"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+
+            android:layout_height="wrap_content"
+            android:text="communicate with a patient in real life context through the use of role-plays"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
